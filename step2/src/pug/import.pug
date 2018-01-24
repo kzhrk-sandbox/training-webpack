@@ -1,5 +1,14 @@
 doctype
 html
 	head
-		script(src="/js/import.bundle.js")
+		script(src="js/import.bundle.js")
 	body
+		dl
+			dt エントリーポイント書き出し
+			dd#js-entry
+			dt モジュール書き出し
+			dd#js-module
+			dt importで呼び出されたjQueryのversion
+			dd#js-import
+			dt グローバル（window）のjQueryのversion
+			dd#js-window

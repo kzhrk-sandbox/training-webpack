@@ -1,3 +1,3 @@
 export default function () {
-  $('body').append('written from module');
+  $('#js-module').append('use-jquery.js');
 };

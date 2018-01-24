@@ -2,10 +2,10 @@ import $ from 'jquery';
 import useJquery from './modules/use-jquery';
 
 $(function () {
-  $('body').append('require');
+  $('#js-entry').append('import.bundle.js');
 
   useJquery();
 
-  $('body').append('jquery version: ' + $.fn.jquery);
-  $('body').append('jquery version: ' + window.$.fn.jquery);
+  $('#js-import').append($.fn.jquery);
+  $('#js-window').append(window.$.fn.jquery);
 });

@@ -15,6 +15,8 @@
   "devDependencies": {
     "browser-sync": "^2.23.5",
     "jquery": "^3.3.1",
+    "jquery2": "file:packages/jquery2",
+    "jquery3": "file:packages/jquery3",
     "pug-cli": "^1.0.0-alpha6",
     "webpack": "^3.10.0"
   }

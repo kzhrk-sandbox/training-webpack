@@ -25,15 +25,6 @@ module.exports = [{
     path: path.resolve(__dirname, './public/js')
   }
 },{
-  // index.js
-  entry: {
-    index: './src/js/index.js'
-  },
-  output: {
-    filename: '[name].bundle.js',
-    path: path.resolve(__dirname, './public/js')
-  }
-},{
   // provide.js
   entry: {
     provide: './src/js/provide.js'
