@@ -16,6 +16,22 @@ module.exports = [{
     }
   }
 },{
+  // commons.js
+  entry: {
+    commons: './src/js/commons.js',
+    vendors: 'jquery'
+  },
+  output: {
+    filename: '[name].bundle.js',
+    path: path.resolve(__dirname, './public/js')
+  },
+  plugins: [
+    new webpack.optimize.CommonsChunkPlugin({
+      name     : 'vendors',
+      minChunks : Infinity
+    })
+  ]
+},{
   // import.js
   entry: {
     import: './src/js/import.js'
