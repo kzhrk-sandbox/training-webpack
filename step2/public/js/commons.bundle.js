@@ -27,8 +27,12 @@ __WEBPACK_IMPORTED_MODULE_0_jquery___default()(function () {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_jquery__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_jquery___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_jquery__);
+
+
 /* harmony default export */ __webpack_exports__["a"] = (function () {
-  $('#js-module').append('use-jquery.js');
+  __WEBPACK_IMPORTED_MODULE_0_jquery___default()('#js-module').append('use-jquery.js');
 });;
 
 

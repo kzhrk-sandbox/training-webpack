@@ -1,0 +1,24 @@
+{
+  "name": "step1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "scripts": {
+    "start": "npm run webpack & npm run pug & npm run server",
+    "webpack": "webpack -w",
+    "pug": "pug ./src/pug -wo ./public",
+    "server": "browser-sync start --server ./public"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.23.5",
+    "css-loader": "^0.28.9",
+    "jquery": "^3.3.1",
+    "pug-cli": "^1.0.0-alpha6",
+    "slick-carousel": "^1.8.1",
+    "style-loader": "^0.20.1",
+    "webpack": "^3.10.0"
+  }
+}
